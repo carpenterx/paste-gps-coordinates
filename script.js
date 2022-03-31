@@ -1,5 +1,5 @@
 // Add your access token
-mapboxgl.accessToken = pk.eyJ1IjoiY2FycGVudGVyeDIwIiwiYSI6ImNsMWY1emdhZDAydWgza3Bma3RyOXplMzcifQ.gROkyI6Rw1LJouUs9GcWWQ;
+mapboxgl.accessToken = "pk.eyJ1IjoiY2FycGVudGVyeDIwIiwiYSI6ImNsMWY1emdhZDAydWgza3Bma3RyOXplMzcifQ.gROkyI6Rw1LJouUs9GcWWQ";
 
 const coordsText = document.getElementById("coordsText");
 const parseBtn = document.getElementById("parse-button");
