@@ -1,16 +1,10 @@
 // Add your access token
-mapboxgl.accessToken = API_KEY;
+mapboxgl.accessToken = pk.eyJ1IjoiY2FycGVudGVyeDIwIiwiYSI6ImNsMWY1emdhZDAydWgza3Bma3RyOXplMzcifQ.gROkyI6Rw1LJouUs9GcWWQ;
 
 const coordsText = document.getElementById("coordsText");
 const parseBtn = document.getElementById("parse-button");
 
 var markers = [];
-
-coordsText.value = `38.3191, -92.5414
-38.32385, -92.5452
-38.3297, -92.54274
-38.33261, -92.5272
-38.31506, -92.52226`;
 
 parseBtn.addEventListener("click", ParseInput);
 
